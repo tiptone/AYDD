@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are You Down Dog?</title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css" />
+</head>
+<body>
+<!-- Start Top Bar -->
+<div class="top-bar">
+    <div class="top-bar-right">
+        <ul class="menu vertical medium-horizontal">
+            <li><a href="/">Home</a></li>
+            <li><a href="/schedule">Schedule</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<!-- End Top Bar -->
+
+<br>
+
+<div class="grid-container">
+    <div class="callout">
+        <h2 class="text-center">{{ title }}</h2>
+        <p class="text-center">ARE YOU DOWN DOG?</p>
+    </div>
+
+    {{ include(template) }}
+
+    <hr>
+    <footer>
+        <p class="text-center">&copy; {{ "now"|date("Y") }} Are You Down Dog Yoga</p>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/what-input@5.2.10/dist/what-input.min.js" integrity="sha256-ZLjSztVkz5q3lKFjN9AgL6qR7TGLE+qnTXnNNTWtMF4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
+
+
